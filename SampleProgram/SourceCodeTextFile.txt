@@ -1,0 +1,14 @@
+﻿using System;
+using System.Data.SqlClient;
+
+namespace Sample
+{
+    class DynamicProgram
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine($"******Sample Code********");
+            Console.WriteLine($"Hello World from { args[0]}!");
+        }
+    }
+}
